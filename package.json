@@ -1,0 +1,36 @@
+{
+  "name": "sprint-name-server",
+  "version": "0.1.0",
+  "description": "Node server for sprint-name generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanguir/sprint-names-server"
+  },
+  "keywords": [
+    "node",
+    "wordnik",
+    "sprint",
+    "agile"
+    "express"
+  ],
+  "author": "Alan Languirand <alan@13protons.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanguir/sprint-names-server/issues"
+  },
+  "homepage": "https://github.com/alanguir/sprint-names-server",
+  "dependencies": {
+    "apicache": "0.0.12",
+    "body-parser": "^1.14.1",
+    "compression": "^1.5.0",
+    "express": "^4.13.0",
+    "lodash": "^3.10.0",
+    "q": "^1.4.1",
+    "request": "^2.58.0",
+    "swagger-client": "^2.1.9"
+  }
+}
